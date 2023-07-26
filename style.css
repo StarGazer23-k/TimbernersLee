@@ -1,0 +1,180 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: indigo;
+  }
+  
+  h1, h2 {
+    margin: 0;
+    font-style: italic;
+  }
+  
+  p {
+    margin: 0;
+    line-height: 1.5;
+    font-size: medium;
+    font-style: oblique;
+    color: black;
+  }
+  
+  
+  #welcome {
+    position: relative;
+    height: 100vh;
+    background-image: url("background-image.jpg");
+    background-size: cover;
+    background-position: center;
+    color: yellow;
+  }
+  
+  .parallex-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .profile {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+  }
+  
+  #name {
+    font-size: 40px;
+    font-weight: bold;
+  }
+  
+  #bio {
+    padding: 50px;
+    background-color: aqua;
+    color: orchid;
+    text-align: center;
+  }
+  
+  .line {
+    width: 100%;
+    height: 2px;
+    background-color: #333;
+    margin-bottom: 20px;
+  }
+  
+  
+  @media (max-width: 768px) {
+    .parallex-inner {
+      padding: 10px;
+    }
+    
+    .profile {
+      width: 100px;
+      height: 100px;
+    }
+  }
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.links {
+  display: inline-block;
+  margin: 10px;
+  font-size: 18px;
+}
+
+.links a {
+  text-decoration: none;
+  color: hotpink;
+  padding: 5px 10px;
+}
+
+.links a:hover {
+  background-color: greenyellow;
+  color: red;
+  border-radius: 5px;
+  text-decoration: underline;
+}
+#videos {
+  padding: 50px;
+  text-align: center;
+  background-color: seagreen;
+}
+
+#videos h1 {
+  font-size: 36px;
+  font-weight: bold;
+  color: hotpink;
+  margin-bottom: 20px;
+}
+
+#videos .line {
+  background-color: hotpink;
+}
+
+#videos iframe {
+  width: 100%;
+  height: 500px;
+  margin: 20px 0;
+}
+
+#work {
+  padding: 50px;
+  text-align: center;
+  background-color: blue;
+}
+
+#work h1 {
+  color: palegoldenrod;
+}
+
+#writings {
+  padding: 50px;
+  background-color: black;
+}
+
+#writings h1 {
+  font-size: 36px;
+  font-weight: bold;
+  color: hotpink;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+#writings .line {
+  background-color: hotpink;
+}
+
+#writings .article {
+  display: block;
+  font-size: 18px;
+  color: hotpink;
+  text-decoration: none;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+#writings .article:hover {
+  color: red;
+}
+#contact{
+background: firebrick;
+}
+
+#contact iframe{
+    width: 100%;
+}
+
+.contact_1 h3{
+    display: inline;
+}
+.contact_1 a{
+    color: white;
+    text-shadow: none;
+    text-align: center;
+}
